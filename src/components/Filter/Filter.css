@@ -1,0 +1,13 @@
+.button-group {
+    display: flex;
+    align-items: center;
+}
+
+.button-group > * + * {
+    margin-left: 8px;
+}
+
+.btn-filter.active {
+    background-color: transparent;
+    color: black;
+}

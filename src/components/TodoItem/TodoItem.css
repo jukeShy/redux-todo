@@ -1,0 +1,25 @@
+.todo {
+    display: flex;
+}
+
+.todo-actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: auto;
+}
+
+.todo.is-done {
+    background-color: #c5e1a5;
+}
+
+@media screen and (max-width: 540px) {
+    .todo {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .todo-actions {
+        justify-content: flex-start;
+    }
+}
